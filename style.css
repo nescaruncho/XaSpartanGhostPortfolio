@@ -96,11 +96,10 @@ footer {
 }
 h1 {
   font-size: 50px;
-  word-break: break-all;
 }
 .row {
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 /* Add padding BETWEEN each column (if you want) */
 .row,
@@ -129,9 +128,9 @@ h1 {
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+	.column {
+		width: 50%;
+	}
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -144,7 +143,7 @@ h1 {
   display: grid;
   gap: 10px;
   padding: 10px;
-  width: 1200px;
+  width: 80%;
   margin: auto;
 }
 .grid-item {
@@ -204,4 +203,50 @@ h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* GRID */
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+}
+
+.profilepic {
+	width: 80%;
+	border: 3px solid orange;
+	padding: 10px;
+	border-radius: 10%;
+}
+
+.mail a:link {
+  color: orange;
+  text-decoration: none;
+}
+
+.mail a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+.mail a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.mail a:active {
+  color: white;
+  background-color: transparent;
+}
+
+h4 {
+	color: orange;
 }
