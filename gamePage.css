@@ -271,3 +271,23 @@ h1, h2, h3, h4 {
 h1 {
 	background-color: rgba(0, 0, 0, 0.8);
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e67e00 !important;
+  background-color: transparent;
+}
+
+a:active {
+  color: #e67e00;
+  background-color: transparent;
+}
