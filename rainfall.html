@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rainfall</title>
+	<link rel="stylesheet" href="gamePage.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body style="background-image: url('images/Rainfall/rainfall1.png');">
+	<header>
+		<ul class="nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<div class="dropdown">
+					<a href="portfolio.html">Portfolio</a>
+					<div class="dropdown-content">
+						<a href="roninhoodsisters.html">Ronin-Hood Sisters</a>
+						<a href="zerostealth.html">Zero Stealth</a>
+						<a href="polaris.html">POLARIS: A New Home</a>
+						<a href="agoraphobia.html">Agoraphobia</a>
+						<a href="fabricia.html">Fabricia in Wonder-Disco</a>
+						<a href="rainfall.html" class="active">Rainfall</a>
+					</div>
+				</div> 
+			</li>
+			<li>
+				<a href="portfolio.html">Resumee</a>
+			</li>
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+
+	</header>
+    <div class="content">
+		<h1>Rainfall</h1><i class="fa-brands fa-itch-io"></i>
+		<!-- Container for the image gallery -->
+		<div class="galleryContainer">
+
+		  <!-- Full-width images with number text -->
+		  <div class="mySlides">
+			<div class="numbertext">1 / 6</div>
+			  <img src="images/Rainfall/front.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">2 / 6</div>
+			  <img src="images/Rainfall/rainfall1.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">3 / 6</div>
+			  <img src="images/Rainfall/rainfall2.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">4 / 6</div>
+			  <img src="images/Rainfall/rainfall3.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">5 / 6</div>
+			  <img src="images/Rainfall/rainfall4.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides">
+			<div class="numbertext">6 / 6</div>
+			  <img src="images/Rainfall/rainfall5.png" style="width:100%">
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		  <!-- Image text -->
+		  <div class="caption-container">
+			<p id="caption"></p>
+		  </div>
+
+		  <!-- Thumbnail images -->
+		  <div class="rowThumbnail">
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/front.png" style="width:100%" onclick="currentSlide(1)" alt="Character facing open space with invisible creatures">
+			</div>
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/rainfall1.png" style="width:100%" onclick="currentSlide(2)" alt="Drips, drops, puddles and splatters of the rain">
+			</div>
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/rainfall2.png" style="width:100%" onclick="currentSlide(3)" alt="The player can use items like this strange oiled fluid that will disconect temporarily a creature from the rain">
+			</div>
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/rainfall3.png" style="width:100%" onclick="currentSlide(4)" alt="Launching arc for objects like bottles or bricks">
+			</div>
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/rainfall4.png" style="width:100%" onclick="currentSlide(5)" alt="Hit creature covered with the oil, changing their appearance during the effect">
+			</div>
+			<div class="columnThumbnail">
+			  <img class="demo cursor" src="images/Rainfall/rainfall5.png" style="width:100%" onclick="currentSlide(6)" alt="Player being attacked">
+			</div>
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="leftcolumn">
+			<div class="card">
+			  <h4>Platform:</h4>
+			  <p>PC</p>
+			  <h4>Tools:</h4>
+			  <p>Unreal Engine 5, Photoshop...</p>
+			  <h4>Team Size:</h4>
+			  <p>1</p>
+			  <h4>Role:</h4>
+			  <p>Game Designer, Programmer, 2D Artist, VFX Artist</p>
+			</div>
+		  </div>
+		  <div class="rightcolumn">
+			<div class="card">
+			  <h2>Overview</h2>
+			  <p><strong>Rainfall</strong> is a personal project made as my end-of-degree project. The subject was the 
+			  elaboration of a GDD for a survival horror game, create art for some characters, and then implement a simple 
+			  gameplay prototype. For that I used different tools like metahuman, mixamo or niagara.</p>
+			  <p>The game concept features a chapter based story with a narrative in which decisions, sometimes trivial, may affect 
+			  the fate of other survivors. Those decisions can be clear and explicit, like dialogue options, but also complex gameplay 
+			  situations, like analizing the player's behavior, game events that can be missed, or actions seemingly inocuous (like blocking 
+			  a door) that can affect other characters later.</p>
+			  <p>But the main feature is the rain. It drives the story, the gameplay and the game flow. When it starts raining, the monsters 
+			  come to life, and when the character is under the rain, they'll know where she is and attack her. This makes for interesting 
+			  stealth tactics, since the enemies doesn't relly on common perception senses, and some special enemies have ways to bring danger 
+			  to safe zones. Since these creatures are invisible, the only way to see them is the rain dripping through their bodies.</p>
+			  <p>Some highlights of the project:</p>
+			  <ul>
+				<li>Elaboration of a small GDD that detailed all core parts, from mechanics to market research.</li>
+				<li>Sewers level blockout.</li>
+				<li>Creating VFX for the rain, consisting on the rain particles, drips and drops, puddles and wetness on materials.</li>
+				<li>Used metahuman to achieve a realist character reminiscent of the protagonist art.</li>
+				<li>Stealth focused with tools at the player disposal to avoid enemies.</li>
+				<li>The enemies spawn during rain and will only perceive the characters when they're in the rain.</li>
+				<li>Creating VFX for the invisible creatures, which are only seen for the rain pouring on them, and other 
+				things like a previsualization of launching objects.</li>
+				<li>LOTS MORE!</li>
+			  </ul>
+			  <h2>Game Synopsis</h2>
+			  <p>Rainfall is a third person Survival Horror episodic game which follows the story of a teenager that, along with 
+			  other people, arrive to a abandoned train station following the tracks in the rain. The place they arrive is a clouded 
+			  city in which invisible horrors prey the survivors during the rainfall.</p>
+			  <h3>Game Features<h3>
+			  <h4>Episodic storytelling</h4>
+			  <p>Each episode elaborates on the mistery and makes the player questioning what is really going on.</p>
+			  <h4>Dynamic wheater</h4>
+			  <p>The rain can start and end at any time, aside from scripted moments, changing the flow from exploration and puzzle 
+			  to stealth and combat.</p>
+			  <p>Some special enemies can affect or act on apparently covered zones.</p>
+			  <h4>Make decisions, even when you don't know</h4>
+			  <p>Some choices bring unexpected consecuences, but the way you play may have more impact on things that can be 
+			  imagined.</p>
+			  <h4>Meet the other survivors</h4>
+			  <p>Each and every other survivor has arrived the same way, but they will talk and act differently acording to 
+			  their personality and the player's interactions.</p>
+			</div>
+		  </div>
+		</div>
+		<h2 style="background-color: rgba(0, 0, 0, 0.8);">Playable Teaser</h2>
+		<video width="960" height="540" controls>
+			<source src="assets/Rainfall Teaser.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+	<footer>
+		<div>
+			<a href="https://www.linkedin.com/in/xabier-villanueva-loureiro-821624225" class="fa fa-linkedin"></a>
+			<a href="https://www.instagram.com/xaspartan_ghost/" class="fa fa-instagram"></a>
+		</div>
+		<div>
+			<p>&copy; 2024 Xabier Villanueva Loureiro</p>
+		</div>
+	</footer>
+	
+	<script>
+		let slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  let i;
+		  let slides = document.getElementsByClassName("mySlides");
+		  let dots = document.getElementsByClassName("demo");
+		  let captionText = document.getElementById("caption");
+		  if (n > slides.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " active";
+		  captionText.innerHTML = dots[slideIndex-1].alt;
+		}
+	</script>
+  </body>
+</html>
