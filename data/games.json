@@ -1,0 +1,103 @@
+{
+  "games": [
+    {
+      "title": "Agoraphobia",
+      "platform": "PC",
+      "tools": "Unity",
+      "teamSize": 9,
+      "role": "Programmer",
+      "overview": "Agoraphobia is a small 2D game. It was the first Jam game I made, along with a team of fellow university students and some people we met there. The game features a simple yet beautiful world filled with music, characters in scribble shape and a timer which darks the screen until the player turns back home.",
+      "synopsis": "Agoraphobia is a small experience in which you have to move your character around a black-and-white world in search of new people. Your handicap is the agoraphobia that makes you black out from anxiety and return to your safe space: your home. By meeting new people, they enrich your world and provide the feeling of safety enough to explore further, discovering in the process that the more people you find, the richer the world you find yourself in is. All along, a beautiful soundtrack accompanies your journey in this little-yet-beautiful world you are yet to discover.",
+      "images": [
+        "images/Agoraphobia/front.png",
+        "images/Agoraphobia/agoraphobia1.png",
+        "images/Agoraphobia/agoraphobia2.png",
+        "images/Agoraphobia/agoraphobia3.png",
+        "images/Agoraphobia/agoraphobia4.png"
+      ]
+    },
+    {
+      "title": "Fabricia in Wonder-Disco",
+      "platform": "PC",
+      "tools": "Unity",
+      "teamSize": 11,
+      "role": "Programmer, Game Designer",
+      "overview": "Fabricia in Wonder-Disco is a puzzle sim game in which the player must choose quick who can enter the Wonder-Disco based on the bans the Queen of Hearts orders as the night goes on. It was a game made for the 2024 Global Game Jam in which we are still working to polish before publishing on itch.io. The theme was 'Make Me Laugh' and we choose some diversifiers like 'Lunch Special', 'Woodstock vibes' and 'All For One'.",
+      "synopsis": "Fabricia in Wonderdisco is a hectic puzzle sim game where you play as a reinterpretation of Alice in Wonderland. Your work is, as the bouncer of a nightclub, to comply with the orders of the Queen of Hearths and control who can and cannot enter based on her orders. If you are not fast enough people will leave and if you don´t follow the Queen´s rules you will be fired!",
+      "images": [
+        "images/Fabricia/front.png",
+        "images/Fabricia/fabricia002.png",
+        "images/Fabricia/fabricia003.png",
+        "images/Fabricia/fabricia004.png",
+        "images/Fabricia/fabricia005.png",
+        "images/Fabricia/fabricia006.png"
+      ]
+    },
+    {
+      "title": "POLARIS: A New Home",
+      "platform": "PC",
+      "tools": "Phaser, Photoshop",
+      "teamSize": 6,
+      "role": "Game Designer, 2D artist",
+      "overview": "POLARIS: A New Home is a strategy game about resources management and construction made during my university years. We had to make a small web game in W3C, and propose a fictional monetization plan, which included seasonal events like halloween thematic skins for the recolector robots.",
+      "synopsis": "POLARIS: A New Home is a real time resource management game in which the player has to manage and expand their base on the surface of a planet, struggling to terramorform, colonize and protect it from the inclement weather.",
+      "images": [
+        "images/Polaris/front.png",
+        "images/Polaris/polaris1.png",
+        "images/Polaris/polaris2.png",
+        "images/Polaris/polaris3.png"
+      ]
+    },
+    {
+      "title": "Rainfall",
+      "platform": "PC",
+      "tools": "Unreal Engine 5, Photoshop",
+      "teamSize": 1,
+      "role": "Game Designer, Programmer, 2D Artist, VFX Artist",
+      "overview": "Rainfall is a personal project made as my end-of-degree project. The subject was the elaboration of a GDD for a survival horror game, create art for some characters, and then implement a simple gameplay prototype. For that I used different tools like metahuman, mixamo or niagara.",
+      "synopsis": "Rainfall is a third person Survival Horror episodic game which follows the story of a teenager that, along with other people, arrive to a abandoned train station following the tracks in the rain. The place they arrive is a clouded city in which invisible horrors prey the survivors during the rainfall.",
+      "images": [
+        "images/Rainfall/front.png",
+        "images/Rainfall/rainfall1.png",
+        "images/Rainfall/rainfall2.png",
+        "images/Rainfall/rainfall3.png",
+        "images/Rainfall/rainfall4.png",
+        "images/Rainfall/rainfall5.png"
+      ]
+    },
+    {
+      "title": "Ronin-Hood Sisters",
+      "platform": "PC",
+      "tools": "Unreal Engine, Notion, Jira, Photoshop",
+      "teamSize": 18,
+      "role": "Game Designer",
+      "overview": "Ronin-Hood Sisters is a Tactical RPG with elements of Rogue-Lite. It was our Master project, in which a team composed by 6 game designers, 9 programmers and 3 artists, with some outsourcing for sound had to create from scratch a video game concept and fully develop a Vertical Slice, though our focus in procedural generation made our game almost feel like a full experience. I had the chance to contribute and iterate over most of the features of the game.",
+      "synopsis": "Ronin-Hood Sisters is a Tactical RPG with elements of Rogue-Lite, where the player takes control of a group of magical girls with the ability to combine elements using their special powers that come from their costumes. This group of girls will use all of their abilities to destroy Otakio in order to recover their audience.",
+      "images": [
+        "images/Ronin/front.png",
+        "images/Ronin/RoninHoodImage.png",
+        "images/Ronin/costume.png",
+        "images/Ronin/combat.png",
+        "images/Ronin/destruction.png",
+        "images/Ronin/map.png"
+      ]
+    },
+    {
+      "title": "Zero Stealth",
+      "platform": "PC",
+      "tools": "Unity, Photoshop",
+      "teamSize": 6,
+      "role": "Game Designer, Programmer, UI Artist, Animator",
+      "overview": "Zero Stealth is a funny stealth game with ragdoll physics we made during university. The objective was to complete a small game using Unity, which later would be evaluated by a jury composed of professional game developers and journalists. I took different roles as we had less than 2 months, and we also had to pitch it and propose a fictional monetization plan for it.",
+      "synopsis": "Agent Garcia embarks on the dangerous mission of discovering in which malevolent project the Zero Gravity study has submerged after his suspicious first success. Our protagonist must venture into the secret facilities known as ZG and discover the nature of this new (and Machiavellian) project.",
+      "images": [
+        "images/ZS/front.png",
+        "images/ZS/zs1.png",
+        "images/ZS/zs2.png",
+        "images/ZS/zs3.png",
+        "images/ZS/zs4.png",
+        "images/ZS/zs5.png"
+      ]
+    }
+  ]
+}
